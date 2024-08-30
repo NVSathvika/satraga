@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <form>
+            <fieldset>
+                <h1>Student Registration Form</h1>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="rollno">Roll No:</label>
+            <input type="text" id="rollno" name="rollno" required><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>  
+
+              
+
+            <label>Select Your Course:</label><br>
+            <select name="courses" id="courses">
+                <option value="cs101">CSE</option>
+                <option value="cs102">IT</option>
+                <option value="cs103">ECE</option>
+                <option value="cs104">EEE</option>
+                <option value="cs105">CSM</option>
+            </select><br><br>
+
+          <label for ="file">Upload image:</label>
+          <input type="file" id="myfile" name="filename"><br>
+            <button type="submit">Register</button><br><br>
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
